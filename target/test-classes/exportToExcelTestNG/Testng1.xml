@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+<listeners>
+<listener class-name="listernersdemo.Listeners"></listener>
+</listeners>
+  <test name="TestOne">
+    <classes>
+      <class name="exportToExcelTestNG.TestOne"/>
+    </classes>
+  </test>
+  <test name="TestTwo">
+    <classes>
+      <class name="exportToExcelTestNG.TestTwo"/>
+    </classes>
+  </test> 
+</suite>

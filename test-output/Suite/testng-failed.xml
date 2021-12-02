@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listernersdemo.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="TestOne(failed)">
+    <classes>
+      <class name="exportToExcelTestNG.TestOne">
+        <methods>
+          <include name="testMethodSkip"/>
+          <include name="testMethodFail"/>
+        </methods>
+      </class> <!-- exportToExcelTestNG.TestOne -->
+    </classes>
+  </test> <!-- TestOne(failed) -->
+  <test thread-count="5" name="TestTwo(failed)">
+    <classes>
+      <class name="exportToExcelTestNG.TestTwo">
+        <methods>
+          <include name="testMethodSkip"/>
+          <include name="testMethodFail"/>
+        </methods>
+      </class> <!-- exportToExcelTestNG.TestTwo -->
+    </classes>
+  </test> <!-- TestTwo(failed) -->
+</suite> <!-- Failed suite [Suite] -->
