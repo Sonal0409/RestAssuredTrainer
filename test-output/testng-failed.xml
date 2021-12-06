@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.logging.NoheadersInlog">
+      <class name="hamercrestmethods.AllofmethodsHamercrest">
         <methods>
-          <include name="validate_logging"/>
+          <include name="AnyofMethod"/>
         </methods>
-      </class> <!-- com.rest.logging.NoheadersInlog -->
+      </class> <!-- hamercrestmethods.AllofmethodsHamercrest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

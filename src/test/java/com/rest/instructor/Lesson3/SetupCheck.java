@@ -6,6 +6,9 @@ import static org.hamcrest.Matchers.*;
 
 import org.testng.annotations.Test;
 
+
+// add the static imports
+
 public class SetupCheck {
 	
 	@Test

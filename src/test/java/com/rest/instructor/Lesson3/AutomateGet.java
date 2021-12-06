@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.*;
 
 public class AutomateGet {
 	
-	@Test
+	//@Test
 	public void validate_get_status_code()
 	{
 		
@@ -24,5 +24,7 @@ public class AutomateGet {
 		.assertThat().statusCode(200);
 		
 	}
+	
+	
 
 }
