@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hamercrestmethods.AllofmethodsHamercrest">
+      <class name="projectwork.Deletereq">
         <methods>
-          <include name="AnyofMethod"/>
+          <include name="deletereq"/>
         </methods>
-      </class> <!-- hamercrestmethods.AllofmethodsHamercrest -->
+      </class> <!-- projectwork.Deletereq -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
